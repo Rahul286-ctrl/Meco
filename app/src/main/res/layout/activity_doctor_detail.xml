@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoctorDetail">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:elevation="15dp"
+    app:cardUseCompatPadding="true"
+
+    >
+
+<RelativeLayout
+
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="15dp">
+
+<TextView
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="this is demo name"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:textColor="#000"
+    android:layout_marginLeft="10dp"/>
+<TextView
+    android:id="@+id/specialization"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="this is specialization"
+    android:textSize="25sp"
+    android:textColor="#000"
+    android:layout_marginLeft="10dp"
+    android:layout_below="@+id/name"/>
+<TextView
+    android:id="@+id/experience"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="this is specialization"
+    android:textSize="25sp"
+    android:textColor="#000"
+    android:layout_marginLeft="10dp"
+    android:layout_below="@+id/specialization"/>
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask for appointment"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:layout_marginTop="25dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

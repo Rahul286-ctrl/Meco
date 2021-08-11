@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is demo name"
+            android:textColor="#000"
+            android:layout_marginLeft="10sp"
+            android:layout_below="@+id/Text"
+            android:layout_alignRight="@+id/Text"/>
+
+        <TextView
+            android:id="@+id/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="this is demo name"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10sp"
+            />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
